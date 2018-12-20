@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>View notes</title>
+  </head>
+  <body>
+
+    <h1> View Notes </h1>
+      <% notes.forEach(function(note,i){ %>
+       <h1><strong> <%= note.title %> </strong></h1>
+       <p> <%= note.description %> </p>
+        <button><a href="/deleteNote/<%= note._id %>"><i class="fa fa-trash"></i> Delete</a></button>
+         <button><a href="/editNote/<%= note._id %>"><i class="fa fa-trash"></i> Edit</a></button>
+      </div>
+    <% }) %>
+      
+
+
+  
+    
+  </body>
+</html>

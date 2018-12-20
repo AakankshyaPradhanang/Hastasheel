@@ -1,0 +1,146 @@
+<html>
+	<head>
+		<title>Sign Up</title>
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/jav.js"></script>
+	</head>
+	<body  id="particles-js">
+		<div class="container-class">
+			<div class="container-form-body">
+				<div class="form-header">
+					<b>Sign Up</b>
+				</div> <!-- form-head ends here -->
+				<div class="form-body">
+					<div class="input-div">
+						<div class="label-name">
+							<label for="">First Name : </label>
+						</div>
+						<div class="input">
+							<input type="text" id="fname" class="form-control" name="fname" placeholder="Enter First Name">
+							<span class="errormsg" id="errfname">Please Insert First Name</span>
+						</div>
+					</div>
+					<div class="input-div">
+						<div class="label-name">
+							<label for="">Last Name : </label>
+						</div>
+						<div class="input">
+							<input type="text" id="lname" class="form-control" name="lname" placeholder="Enter Last Name">
+							<span class="errormsg" id="errlname">Please Insert Last Name</span>
+						</div>
+					</div>
+					<div class="input-div">
+						<div class="label-name">
+							<label for="">Screen Name : </label>
+						</div>
+						<div class="input">
+							<input type="text" id="sname" class="form-control" name="sname" placeholder="Enter Screen Name">
+							<span class="errormsg" id="errsname">Please Insert Screen Name</span>
+						</div>
+					</div>
+					<div class="input-div">
+						<div class="label-name">
+							<label for="">Date Of Birth : </label>
+						</div>
+						<div id="input-dob" class="input">
+							<select id="month" name="month" class="select dob">
+								<option value="">M</option>
+								<oqption value="Jan">Jan</option>
+								<option value="Feb">Feb</option>
+							</select>
+							<select id="date" name="date" class="select dob">
+								<option value="">D</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+							</select>
+							<select id="year" name="year" class="select dob">
+								<option value="">Y</option>
+								<option value="1990">1990</option>
+								<option value="1991">1991</option>
+							</select>
+							<span class="errormsg" id="errdob">Please Insert Date Of Birth</span>
+						</div>
+					</div>
+					<div class="input-div">
+						<div class="label-name">
+							<label for="">Gender : </label>
+						</div>
+						<div class="input">
+							<input type="radio" value="Male" id="male" name="gender"> Male
+							<input type="radio" value="FeMale" id="female" name="gender"> FeMale <br>
+							<span class="errormsg" id="errgender">Please Select Gender</span>
+						</div>
+					</div>
+					<div class="input-div">
+						<div class="label-name">
+							<label for="fonts/">Country : </label>
+						</div>
+						<div id="input-country" class="input">
+							<select id="country" class="select">
+								<option value=""></option>
+								<option value="Jan">Nepal</option>
+								<option value="Feb">China</option>
+							</select><br>
+							<span class="errormsg" id="errcountry">Please Select Country</span>
+						</div>
+					</div>
+					<div class="input-div">
+						<div class="label-name">
+							<label for="">Email : </label>
+						</div>
+						<div class="input">
+							<input type="email" id="email"  class="form-control" name="email" placeholder="Enter Email">
+							<span class="errormsg" id="erremail">Please Insert Email</span>
+							<span class="errormsg" id="erremailv">Please Insert Valid Email</span>
+						</div>
+					</div>
+					<div class="input-div">
+						<div class="label-name">
+							<label for="">Phone : </label>
+						</div>
+						<div class="input">
+							<input type="text" id="phone" class="form-control" name="phone" placeholder="Enter Phone Number">
+							<span class="errormsg" id="errphone">Please Insert Phone</span>
+						</div>
+					</div>
+					<div class="input-div">
+						<div class="label-name">
+							<label for="">Password : </label>
+						</div>
+						<div class="input">
+							<input type="password" class="form-control" id="upass" name="upass" placeholder="Enter Password">
+							<span class="errormsg" id="errupass">Please Insert Password</span>
+						</div>
+					</div>
+					<div class="input-div">
+						<div class="label-name">
+							<label for="">Confirm Password : </label>
+						</div>
+						<div class="input">
+							<input type="password" id="ucpass" class="form-control" name="ucpass" placeholder="Confirm Password">
+							<span class="errormsg" id="errucpass">Passwords do not match</span>
+						</div>
+					</div>
+					<div class="input-div">
+						<div class="label-name">
+
+						</div>
+						<div class="input">
+							<input type="checkbox" class="agree" id="agree">
+							&nbsp;I Agree to the Terms <br>
+							<span class="errormsg" id="erragree">Please Agree</span>
+						</div>
+					</div>
+				</div> <!-- form-body ends here -->
+				<div class="form-footer">
+					<div class="button">
+						<input type="submit" id="submit">
+						<input type="reset" id="submit" value="Cancel">
+					</div>
+				</div> <!-- form-footer ends here -->
+			</div> <!-- container-form-body ends here -->
+		</div> <!-- container ends here -->
+	</body>
+</html>

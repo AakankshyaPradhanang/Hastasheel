@@ -1,0 +1,137 @@
+	*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+/*to apply styling to input types*/
+/*bootstrap like styling*/
+input[type=text],input[type=email],input[type=password]{
+	outline: none;
+	width: 200px;
+	border-radius: 7px;
+	height: 30px;
+	padding-left: 10px;
+}
+
+input[type=submit],input[type=reset]{
+	color: white;
+	width: 100px;
+	border-radius: 7px;
+	height: 30px;
+	background: green;
+}
+
+input:focus{
+	border-color: #ffdd47;
+}
+
+input[type=reset]{
+	background: red;
+}
+
+select{
+	outline: none;
+	border-radius: 7px;
+	width: 100px;
+	box-shadow: none;
+	height: 30px;
+}
+
+select:focus{
+	border-color: #ffdd47;
+	border-radius: 7px;
+}
+
+/*bootstrap like styling ends here*/
+
+/* to hide the error messages */
+.errormsg{
+	display: none;
+}
+
+.validmsg{
+	color: green;
+	display: none;
+}
+
+
+body{
+	background: black;
+}
+
+.container-class{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	z-index: 1;
+	position: absolute;
+}
+
+.container-form-body{
+	margin: 0 auto;
+	width: 40%;
+	height: 100%;
+}
+
+.form-header{
+	height: 5%;
+	border: 1px solid orange;
+	color: orange;
+	padding: 10px 0px 0px 15px;
+}
+
+.form-body{
+	height: 87%;
+	border: 1px solid orange;
+}
+
+#input-dob select{
+	width: 60px;
+	display: inline-block;
+}
+
+ #input-country select{
+ 	width: 100px;
+ }
+
+.form-footer{
+	height: 8%;
+	border: 1px solid orange;
+}
+
+/*to have lable and input align in same line*/
+.label-name,.input{
+	display: inline-block;
+	color: orange;
+}
+
+/*to align the input type elements */
+.input{
+	width: 50%;
+	margin-left: 30px;
+	float: right;
+}
+
+
+/*to apply vertival spacing between input elements*/
+.input-div{
+	padding-top: 6.5%;
+	margin-left: 80px;
+	width: 400px;
+}
+
+
+.errormsg{
+	color: red;
+}
+
+
+.button{
+	padding-top: 15px;
+	padding-right: 20px;
+	float: right;
+}

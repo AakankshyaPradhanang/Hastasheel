@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>= Add notes</title>
+  </head>
+  <body>
+    <h1>EDIT notes</h1>   
+     <form method = "post" action="/editnote">
+    	<div class="box">
+
+
+        <textarea type="text" name="title" id="title"><%= note.title %></textarea><br>
+    	<textarea type="text" name="note" id="note"><%= note.note%></textarea><br>
+      <input type="hidden" name="_id" value="<%= note.id%>"><br>
+    		<button id='submit' type="submit"> Button </button>
+    	</div>
+    </form>
+  </body>
+</html>

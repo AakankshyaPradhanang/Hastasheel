@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hastasheel</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+
+	<link rel ="stylesheet" href="normalize.css">
+	<link rel ="stylesheet" href="styles.css" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+<script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ" crossorigin="anonymous"></script>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	
+</head>
+<body> 
+
+	<header>
+
+		<nav>
+			<div class="row clearfix ">
+				<img src="logo.png" class="logo">
+
+				<ul class="main-nav animated slideInLeft" id="check-class">
+					<li><a href="products/index.html">Product</a></li>
+					<li><a href="#">Donations</a></li>
+					<li><a href="Website/form_validate/newfile.html">Sign Up</a></li>
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+			</div>
+		</nav>
+	</header>
+
+	<script type="text/javascript">
+		function slideshow(){
+			var x = document.getElementById('check-class');
+			if(x.style.display === "none"){
+				x.style.display="block";
+			}else{
+				x.style.display="none";
+			}
+
+		}
+	</script>
+
+	<div class="main-content-header">
+		<h1> Welcome To <span class="colorchange">Hastasheel</span>.<br> </h1>
+		<a href="http://localhost:3000/Website/index.html" class="btn btn-full"> click to book </a>
+	</div>
+
+  <div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fas fa-search"></i>
+     </button>
+   </div>
+</div>
+
+</body>
+</html>

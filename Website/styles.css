@@ -1,0 +1,69 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(haat.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+/* for login page (center)*/
+.login-page{
+	width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+/* for div class form*/
+.form{
+	position: relative;
+	z-index:1;
+	background: rgba(7, 40, 195, 0.8);
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+/* code for design input fields(input form)*/
+.form input{
+	font-family: "Roboto", sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+/* button*/
+.form button{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+/* for hover effect*/
+.form button:hover,.form button:active{
+	background: #43A047;
+}
+/* change the color of text message */
+.form .message{
+	margin:15px 0 0;
+	color: aliceblue;
+	font-size: 12px;
+}
+/* for link color*/
+.form .message a{
+	color: #4CAF50;
+	text-decoration: none;
+}
+/* hiding registration form*/
+.form .register-form{
+	display:none;
+}
+
+
+
